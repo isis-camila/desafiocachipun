@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- font google -->
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital@1&display=swap" rel="stylesheet">
+
+    <!-- css -->
+    <link rel="stylesheet" href="/assets/estilos.css">
+    <title>Cachipun</title>
+</head>
+<body>
+    <div class="central">
+        <h1>Cachipun</h1>
+        <header class="header">
+            <img class="img" src="/assets/img/manitos.jpg" alt="" srcset="">
+        </header>
+    </div>
+
+    <div class="panel-jugada">
+          
+
+        <label for="jugadas">¿Cuántas veces quieres jugar?</label>
+        <input type="number" id="numero-jugadas" name="jugadas">
+
+        <p>Escoge la jugada</p>
+        <select id =jugada-usuario class="form-select" aria-label="select example">
+            <option value="1" > 1. Piedra</option>
+            <option value="2" >2. Papel</option>
+            <option value="3" >3. Tijera</option>
+        </select>
+
+        <button id="boton">Jugar</button>
+
+        
+        <div id="resultados"></div>
+        <script src="/assets/script.js"></script>
+
+    </div>
+
+    
+</body>
+</html>
